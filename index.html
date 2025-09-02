@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacques Mapenzi Masuruku - Portfolio</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#" class="logo">Jacques MASURUKU</a>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <img src="Profil.jpg" alt="Mapenzi Masuruku Jacques">
+            <h1>MAPENZI MASURUKU Jacques</h1>
+            <p>Informaticien Technicien à l'UPG, Dévéloppeur Junior et Spécialiste Analyste de données et Promoteur</p>
+            <a href="#contact" class="cta-button">Me contacter</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>À propos de moi</h2>
+            <p>Technicien supérieur en Développement Rural et Informaticien Technicien à l'Université Polytechnique de Goma, avec expertise en gestion et analyse de données. Compétences en conception de bases de données (MySQL, Access, Excel), analyse avancée avec SPSS et PowerBI, et gestion de plateformes d’enquêtes comme KoboToolbox, JotForm et Google Forms. Apprentissage rapide et capacité à travailler dans des environnements exigeants.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Mes compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Logiciels & Applications</h3>
+                    <ul>
+                        <li>Microsoft 365 (Word, Excel, PowerPoint, Access)</li>
+                        <li>Ms Project, Blue Mail, Outlook</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Gestion & Analyse de données</h3>
+                    <ul>
+                        <li>ODK Central, KoboToolbox, CommCare</li>
+                        <li>SPSS, Sphinx, PowerBi, Lookerstudio</li>
+                        <li>Excel avancé</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Programmation & Bases de données</h3>
+                    <ul>
+                        <li>Bases de données (Access, PHP MyAdmin, MySQL)</li>
+                        <li>Systèmes d’exploitation (Windows, Linux, Android)</li>
+                        <li>HTML, CSS, JavaScript, PHP (notions)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Communication & Collaboration</h3>
+                    <ul>
+                        <li>Zoom, Google Meet, Google Sheets, Google Docs et tous les outils de Google WorkSpace</li>
+                        <li>Canva, Figma, Google Slides</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Expérience professionnelle</h2>
+
+            <div class="experience-item">
+                <h3>Informaticien Technicien (IT) à l’Université Polytechnique de Goma (UPG)</h3>
+                <span class="date">Mars 2024 - Présent</span>
+                <ul>
+                    <li>Support technique de premier niveau pour le personnel et les étudiants.</li>
+                    <li>Gestion des réseaux sociaux de l’Université et Création de contenu.</li>
+                    <li>Administration des emails professionnels et académiques.</li>
+                    <li>Maintenance des équipements informatiques et gestion des bases de données.</li>
+                    <li>Formation des utilisateurs sur les outils numériques.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>Formateur en Informatique à l'ONG Promotion de Jeunes pour le Développement en Afrique (PROJDA)</h3>
+                <span class="date">2023 - Juin 2024</span>
+                <ul>
+                    <li>Encadrement des stagiaires en informatique.</li>
+                    <li>Conception de formulaires d’enquête et gestion des bases des données.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>Superviseur & Enquêteur (Freelance)</h3>
+                <span class="date">Avril 2023</span>
+                <ul>
+                    <li>Supervision des planteurs d’arbres et enregistrement des données.</li>
+                    <li>Conception de formulaires et collecte via l’application KoboCollect.</li>
+                    <li>Analyse des données collectées et rédaction de rapports avec création des Dashboards.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications">
+        <div class="container">
+            <h2>Recherches & Publications</h2>
+            <div class="publication-item">
+                <h3>TFC ET MÉMOIRE</h3>
+                <ul>
+                    <li>Problématique de l’érosion pluviale et son impact sur la culture de manioc dans le Groupement Mupfunyi Shanga.</li>
+                    <li>Insuffisance d’industries de transformation de maïs et ses répercussions sur la vie socio-économique des producteurs.</li>
+                </ul>
+            </div>
+            
+        </div>
+    </section>
+    <section id="contact">
+  <h2>Me contacter</h2>
+  <form action="https://formspree.io/f/mjkeoqpl" method="POST" class="contact-form">
+    <label for="name">Nom complet</label>
+    <input type="text" id="name" name="name" required placeholder="Votre nom">
+
+    <label for="email">Adresse email</label>
+    <input type="email" id="email" name="email" required placeholder="jacquesmasuruku@gmail.com">
+
+    <label for="subject">Sujet</label>
+    <input type="text" id="subject" name="subject" required placeholder="Objet du message">
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="6" required placeholder="Taper ici votre message ici..."></textarea>
+
+    <button type="submit">Envoyer le message</button>
+  </form>
+</section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="contact-details">
+                <div class="social-buttons">
+                    <a href="https://www.linkedin.com/in/jacques-mapenzi-masuruku-73266b245/" target="_blank" class="social-btn linkedin">LinkedIn</a>
+                    <a href="https://x.com/MapenziJacques" target="_blank" class="social-btn twitter">Twitter (X)</a>
+                    <a href="https://www.youtube.com/@masudatabusiness" target="_blank" class="social-btn youtube">YouTube</a>
+                    <a href="https://www.facebook.com/jacques.masuruku" target="_blank" class="social-btn facebook">Facebook</a>
+                    <a href="mailto:jacquesmasuruku@gmail.com" target="_blank" class="social-btn email">Email</a>
+                    <a href="tel:+24397380118" target="_blank" class="social-btn phone">Téléphone</a>
+                    <a href="https://t.me/jacquesmasuruku" target="_blank" class="social-btn telegram">Telegram</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mapenzi Masuruku Jacques. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
