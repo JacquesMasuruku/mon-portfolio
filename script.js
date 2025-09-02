@@ -39,3 +39,9 @@ if (footer) {
   const currentYear = new Date().getFullYear();
   footer.innerHTML = `&copy; ${currentYear} Mapenzi Masuruku Jacques. Tous droits réservés.`;
 }
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+});
