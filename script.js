@@ -1,4 +1,4 @@
-// Défilement fluide pour les liens de navigation
+// 🌐 Défilement fluide pour les liens de navigation
 document.querySelectorAll('nav ul li a, .cta-button').forEach(link => {
   link.addEventListener('click', function(e) {
     const target = document.querySelector(this.getAttribute('href'));
@@ -9,7 +9,7 @@ document.querySelectorAll('nav ul li a, .cta-button').forEach(link => {
   });
 });
 
-// Message de confirmation lors du clic sur "Me contacter"
+// 📩 Message de confirmation lors du clic sur "Me contacter"
 const contactButton = document.querySelector('.cta-button');
 if (contactButton) {
   contactButton.addEventListener('click', () => {
@@ -17,7 +17,7 @@ if (contactButton) {
   });
 }
 
-// Animation d’apparition des sections au défilement
+// 🎯 Animation d’apparition des sections au défilement
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
@@ -33,12 +33,13 @@ document.querySelectorAll('section').forEach(section => {
   observer.observe(section);
 });
 
-// Ajout dynamique de l’année dans le footer
+// 📅 Ajout dynamique de l’année dans le footer
 const footer = document.querySelector('footer p');
 if (footer) {
   const currentYear = new Date().getFullYear();
-  footer.innerHTML = `&copy; ${currentYear} Mapenzi Masuruku Jacques. Tous droits réservés.`;
+  footer.innerHTML = `&copy; ${currentYear} Jacques Masuruku. Tous droits réservés.`;
 }
+// 🍔 Menu hamburger responsive
 const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
 
