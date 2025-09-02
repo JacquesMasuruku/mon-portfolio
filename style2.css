@@ -413,6 +413,15 @@ footer {
   padding: 10px;
   border-radius: 5px;
 }
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #d6d5d5; /* gris clair et professionnel */
+  color: #333;
+  line-height: 1.6;
+}
+section {
+  background-color: transparent; /* ou #f9f9f9 pour un gris très léger */
+}
 
 
 
